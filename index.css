@@ -30,13 +30,13 @@ h1 {
     font-weight: 800;
 }
 
-span {
+h1 span {
     color: #4ADF86;
 }
 
 p {
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .btn {
@@ -53,7 +53,27 @@ hr {
     border: 1px solid #2F3E53;
 }
 
-.item2 {
+.pwd-length-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+#pwd-length {
+    text-align: center;
+    background-color: #273549;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;    
+    color: #55F991;
+    font-size: 16px;
+    line-height: 30px;
+    width: 50px;
+}
+
+
+.pwd-container {
     display: flex;
     justify-content: space-around;
     gap: 25px;
@@ -61,12 +81,15 @@ hr {
 }
 
 .pwd-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
     background-color: #273549;
     color: #55F991;
     border: none;
     border-radius: 4px;
-    height: 50px;
+    height: 40px;
+    width: 250px;
     font-size: 16px;
 }
-

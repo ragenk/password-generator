@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Password Generator</title>
 </head>
 <body>
     <main>
         <section>
             <div class="container">
-                <div class="item1">
+                <div>
                     <h1>Generate a <br>
                         <span>random password</span>
                     </h1>
                     <p>Never use an insecure password again.</p>
-                    <button class="btn">Generate passwords</button>
+                    <div class="pwd-length-container">
+                        <label for="pwd-length">Choose the desirable password length between 8-20 chars.</label>
+                        <input type="number" name="pwd-length" id="pwd-length" min="8" max="20" value="8">
+                    </div>
+                    <button class="btn" id="button-el" onclick="generatePassword()">Generate passwords</button>
                     <hr>
                 </div>
-                <div class="item2">
-                    <button class="pwd-field"></button>
-                    <button class="pwd-field"></button>
+                <div class="pwd-container">
+                    <div class="pwd-field" id="pwd-one"></div>
+                    <div class="pwd-field" id="pwd-two"></div>
                 </div>
             </div>
         </section>
