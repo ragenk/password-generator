@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
+
+
+* {    
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.container {
+    padding: 115px 50px;
+    width: 550px;
+    background-color: #1F2937;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    margin-bottom: 35px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding-top: 35px;
+}
+
+.pwd-field {
+    flex-grow: 1;
+    background-color: #273549;
+    color: #55F991;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 16px;
+}
+
